@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #282D35;
+}
+
+#root {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #11222A;
+    padding: 30px 25px;
+    height: 90px;
+
+}
+
+.nav--logo_text,
+.nav--title {
+    margin: 0;
+
+}
+
+.nav--logo_text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav--title {
+    color: #DEEBF8;
+    font-weight: 600;
+
+}
+
+
+.nav--icon {
+    height: 30px;
+    margin-right: 7px;
+}
+
+main {
+    height: 100%;
+    padding: 57px 27px;
+    color: white;
+    background-image: url(./Group.png);
+    background-repeat: no-repeat;
+    background-position: right 90%;
+}
+
+
+.main-title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts>li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--facts>li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
+
+
+/* toggler */
+
+.toggler {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.toggler p {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.toggler--slider {
+    width: 25px;
+    height: 13px;
+    background-color: #2B283A;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+
+.toggler--slider--circle {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+nav.light .toggler--slider--circle {
+    background-color: black;
+}
+
+.toggler--light {
+    color: #2B283A;
+}
+
+nav.light .toggler--light {
+    color: #918E9B;
+}
+
+.toggler--light {
+    color: #D5D4D8;
+}
+
+nav.light .toggler-light {
+    color: #FFFFFF;
+}
+
+nav.light .toggler--slider {
+    justify-content: flex-end;
+}
+
+
+nav.light {
+    background-color:  rgb(225, 224, 221);
+}
+
+main.light {
+    background-color: rgb(255, 253, 250);
+    color: #2B283A;    
+}
